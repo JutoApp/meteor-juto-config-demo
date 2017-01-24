@@ -1,0 +1,10 @@
+{
+    "server": {
+        "foo": "production bar",
+        "anotherServerKey": "production extra server val"
+    },
+    "public": {
+        "foo": "production public bar",
+        "anotherKey": "production extra val"
+    }
+}
