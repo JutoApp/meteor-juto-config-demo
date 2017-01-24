@@ -1,0 +1,9 @@
+{
+    "server": {
+        "foo": "bar",
+        "defaultServerKey": "default server value"
+    },
+    "public": {
+        "foo": "public bar"
+    }
+}
