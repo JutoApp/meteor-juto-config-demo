@@ -1,2 +1,2 @@
-private/config/production.json filter=git-crypt diff=git-crypt
+private/config/encrypted.json filter=git-crypt diff=git-crypt
 settings-production.json filter=git-crypt diff=git-crypt
