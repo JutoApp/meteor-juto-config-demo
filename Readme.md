@@ -38,6 +38,18 @@ An example meteor project to demonstrate the meteor [juto:config](https://github
     
     There is also a git-crypt encrypted json file named ```encrypted.json```
     
+    encrypted.json:
+    ```json
+    {
+      "server": {
+        "foo": "encrypted bar"
+      },
+      "public": {
+        "foo": "encrypted bar"
+      }
+    }
+    ```
+    
 2. ```meteor npm install```
 3. ```meteor``` . Then navigate to [http://localhost:3000]().
  
