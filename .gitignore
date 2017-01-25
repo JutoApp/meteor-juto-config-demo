@@ -1,5 +1,5 @@
 node_modules/
 
 #private/config/production.json
-#settings-development.json
-#settings-production.json
+settings-development.json
+settings-production.json
