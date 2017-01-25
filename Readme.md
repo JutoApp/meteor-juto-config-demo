@@ -81,6 +81,7 @@ An example meteor project to demonstrate the meteor [juto:config](https://github
     To see git-crypt in action (transparently unencrypting):
      
     ```
+    # import the gpg private key into your personal key chain
     gpg --import jutoconfigdemo_sec.gpg # password is JutoConfigDemo
     git-crypt unlock # password for the jutoconfigdemo@example.com key is JutoConfigDemo
     ```
@@ -90,6 +91,8 @@ An example meteor project to demonstrate the meteor [juto:config](https://github
     ```
     NODE_ENV=encrypted meteor    
     ```
+    
+    **NOTE:** of course, you wouldn't normally include the GPG secret key in the git repository!
     
 ---
 
