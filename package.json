@@ -6,8 +6,6 @@
   },
   "dependencies": {
     "babel-runtime": "6.18.0",
-    "config-gitcrypt": "^1.24.0",
-    "fs-extra": "^2.0.0",
     "meteor-node-stubs": "~0.2.0",
     "json-markup": "~1.1.0"
   }
